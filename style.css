@@ -2743,14 +2743,15 @@ btn-whatsapp {
   .mix-item-menu {
     margin-bottom: 40px;
     display: inline-block;
-    border-bottom: 1px solid #e7e7e7;
-    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #d9c7b9;
+    border-top: 1px solid #d9c7b9;
   }
   
   .mix-item-menu button.active {
-    color: #313A3C;
+    color: #fff;
     position: relative;
     z-index: 1;
+    background: #313A3C;
   }
   
   .mix-item-menu button.active::after {
@@ -5013,18 +5014,5 @@ btn-whatsapp {
   }
   
   
-  /* ============================================================== 
-       # Preloader 
-  =================================================================== */
-  .no-js #loader {
-    display: none;
-  }
-  
-  .js #loader {
-    display: block;
-    position: absolute;
-    left: 100px;
-    top: 0;
-  }
-  
+ 
  

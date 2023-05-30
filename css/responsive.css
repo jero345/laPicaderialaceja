@@ -699,6 +699,7 @@
     border: 1px solid #e7e7e7;
     margin: 5px;
     background: #ffffff;
+    color:#d9c7b9;
   }
 
   .mix-item-menu button.active::after {
